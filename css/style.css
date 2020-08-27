@@ -1,0 +1,93 @@
+.bg-blue{
+    background-color: rgba(63, 133, 226,0.698);
+}
+header .navbar-expand-lg .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+header{
+    width: 100%;
+    padding-bottom: 200px;
+    background: url(../img/hero2.jpg) no-repeat;
+    background-size: cover;
+    left: 20%;;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff ;
+ }
+ header nav.bg-blue{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+ }
+h1{
+    font-size: 66px;
+    line-height: 450px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#nosotros p{
+    font-size: 27px;
+    color: #3b679e;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #3b679e;
+    min-height: 100%;
+    background: #3b679e;
+    color: #ffffff;
+    margin-right: 260px;
+    margin-left: 260px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding: 60px 30px;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3b679e;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+#Servicios{
+    width: 100%;
+    padding-bottom: 70px;
+    background: url(../img/sect2.jpg);
+}
+#Servicios h2{
+    margin:50px 0px ;
+    text-align: center;
+    font-size:7rgba(63, 133, 226,0.698);
+    }
+#Servicios .card-pagina{
+    box-shadow: 0.5px 0.5px #0a4fa38e;
+    color: rgb(255, 255, 255);
+    background: #3b689e8c;
+    text-align: center;
+    padding: 20px 15px;
+}
+#Servicios .card-pagina img{
+    max-width: 100%;
+    text-align: center;
+}
+footer{
+    background:rgb(63, 134, 226);
+    text-align: center;
+    margin-top: 70px;
+
+}
+#footer.container{
+    margin-top: 40px;
+    margin-left: 50px;
+    display: block;
+    box-sizing: border-box;
+}
+/*inicio responsive*/
+ @media (max-width: 500px){ 
+     @media (min-width: 501px) and (max-width: 768px) { } 
+     @media (min-width: 769px) and (max-width: 992x) { } 
+     @media (min-width: 992px) and (max-width: 1199.98px){ } 
+     @media (min-width: 1200px) { }
+
+      } 
+ /*fin responsive*
